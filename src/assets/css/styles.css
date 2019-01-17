@@ -1,0 +1,57 @@
+/* Importar fuentes custom */
+@font-face{
+    font-family: Roboto;
+    src: url("fonts/RobotoCondensed-Regular.ttf");
+}
+@font-face{
+    font-family: Roboto-ligth;
+    src: url("fonts/RobotoCondensed-Light.ttf");
+}
+
+nav, h1, h2, h3, h4, h5{
+    font-family: "Roboto"!important;
+}
+p, span {
+    font-family: "Roboto-ligth"!important;
+
+}
+/* Estilos generales */
+header{
+    height: 100vh;
+    position: relative;
+}
+header img{
+    max-height: 75vh;
+}
+header .nav-section{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header .nav .nav-link:hover{
+    background-color: #ad0f1f;
+    transition: all 500ms;
+}
+header .nav .nav-link.active:hover{
+    background-color: #007bff;
+}
+header .nav-pills .nav-link {
+    margin-right: 1em;
+    color: white;
+    padding: 1.5rem ;
+    border-radius: 0 !important;
+}
+
+body{
+    background: #f5f7f9 !important;
+}
+footer h3{
+    font-family: "Roboto-ligth"!important;
+}
+
+.bg-footer{
+    background-color: #9c4149;
+}
+
+

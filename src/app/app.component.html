@@ -1,20 +1,48 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<header class="bg-danger">
+  <div class="text-center pt-5">
+    <img src="../assets/img/n.svg" alt="">
+  </div>
+  <div class="nav-section">
+    <nav class="nav nav-pills container text-white pl-3 text-uppercase ">
+      <a class="nav-link ml-auto active" [routerLink]="['/sobre-mi']" [routerLinkActive]="['active']"> Sobre mi</a>
+      <a class="nav-link " [routerLink]="['/proyectos']" [routerLinkActive]="['active']">Proyectos</a>
+      <a class="nav-link" [routerLink]="['/crear-proyecto']" [routerLinkActive]="['active']">Crear proyectos</a>
+      <a class="nav-link mr-auto" [routerLink]="['/contacto']" [routerLinkActive]="['active']">Contacto</a>
+    </nav>
+  </div>
+</header>
+<section class="container">
+  <div class="row justify-content-center">
+    <div class="col-8 shadow-lg">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</section>
+<footer class="bg-danger text-white">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-4">
+        <h3>MORE OF ME</h3>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid itaque in enim fugiat sapiente? Natus
+          laborum velit totam, necessitatibus debitis nisi. Dolores unde laudantium, id accusantium sapiente aspernatur
+          tempore alias?</span>
+      </div>
+      <div class="col-4">
+        <h3>INSPIRATION</h3>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid itaque in enim fugiat sapiente? Natus
+          laborum velit totam, necessitatibus debitis nisi. Dolores unde laudantium, id accusantium sapiente aspernatur
+          tempore alias?</span>
+      </div>
+      <div class="col-4">
+        <h3>SOCIAL</h3>
+        <a href="#" class="mr-2"><img src="../assets/img/instagram.png" alt="instagram"></a>
+        <a href="#" class="mr-2"><img src="../assets/img/facebook.png" alt="facebook"></a>
+        <a href="#" class="mr-2"><img src="../assets/img/linkedin.png" alt="linkedin"></a>
+        <a href="#"><img src="../assets/img/github.png" alt="github"></a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-footer py-3">
+    &copy; <span>2019 Copyright: Nicolás Cárdenas</span>
+  </div>
+</footer>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="692px" height="680px" viewBox="0 0 692 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>60358</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="0.51 0.525 76.294 76.494 197.087 76.494 120.706 0.205 0.51 0.525"></polyline>
+        <linearGradient x1="0%" y1="50.0005243%" x2="100%" y2="50.0005243%" id="linearGradient-3">
+            <stop stop-color="#81C4C6" offset="0%"></stop>
+            <stop stop-color="#9BBBE2" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-4" points="0.146 0.525 76.073 76.494 216.513 76.494 140.416 0.205 0.146 0.525"></polyline>
+        <linearGradient x1="0%" y1="50.0005243%" x2="100%" y2="50.0005243%" id="linearGradient-6">
+            <stop stop-color="#83C9CC" offset="0%"></stop>
+            <stop stop-color="#9BBBE2" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-7" points="0.706 403.227 71.703 0.583 147.687 76.566 77.087 479.522 0.706 403.227"></polyline>
+        <linearGradient x1="0%" y1="50.0001044%" x2="100%" y2="50.0001044%" id="linearGradient-9">
+            <stop stop-color="#91C5C7" offset="0%"></stop>
+            <stop stop-color="#6B7BFC" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-10" points="106.982 0.862 182.966 76.846 76.513 681.522 0.416 605.227 106.982 0.862"></polyline>
+        <linearGradient x1="0%" y1="50%" x2="99.9994522%" y2="50%" id="linearGradient-12">
+            <stop stop-color="#EDD4DC" offset="0%"></stop>
+            <stop stop-color="#A9C9CE" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-13" points="0.001 0.862 75.984 76.846 246.435 480.287 170.451 404.304 0.001 0.862"></polyline>
+        <linearGradient x1="0%" y1="49.9998957%" x2="99.9995942%" y2="49.9998957%" id="linearGradient-15">
+            <stop stop-color="#6FF9FE" offset="0%"></stop>
+            <stop stop-color="#787EAE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="60358" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(346.000000, 340.000000) scale(-1, 1) translate(-346.000000, -340.000000) translate(3.000000, -1.000000)">
+            <polygon id="Stroke-3" stroke="#000000" stroke-width="0.992" points="565.572 76.846 685.966 76.846 579.399 681.21 439.073 681.21 267.687 278.566 196.689 681.21 76.294 681.21 182.86 76.846 323.984 76.846 494.435 480.287"></polygon>
+            <g id="Group-6" transform="translate(0.000000, 605.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-5"></g>
+                <polyline id="Fill-4" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="0.51 0.525 76.294 76.494 197.087 76.494 120.706 0.205 0.51 0.525"></polyline>
+            </g>
+            <g id="Group-9" transform="translate(363.000000, 605.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-8"></g>
+                <polygon id="Fill-7" fill="url(#linearGradient-6)" mask="url(#mask-5)" points="76.073 76.494 216.513 76.494 140.416 0.205 0.146 0.525"></polygon>
+            </g>
+            <g id="Group-12" transform="translate(120.000000, 202.000000)">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="Clip-11"></g>
+                <polyline id="Fill-10" fill="url(#linearGradient-9)" mask="url(#mask-8)" points="0.706 403.227 71.703 0.583 147.687 76.566 77.087 479.522 0.706 403.227"></polyline>
+            </g>
+            <g id="Group-15" transform="translate(503.000000, 0.000000)">
+                <mask id="mask-11" fill="white">
+                    <use xlink:href="#path-10"></use>
+                </mask>
+                <g id="Clip-14"></g>
+                <polyline id="Fill-13" fill="url(#linearGradient-12)" mask="url(#mask-11)" points="106.982 0.862 182.966 76.846 76.513 681.522 0.416 605.227 106.982 0.862"></polyline>
+            </g>
+            <g id="Group-18" transform="translate(248.000000, 0.000000)">
+                <mask id="mask-14" fill="white">
+                    <use xlink:href="#path-13"></use>
+                </mask>
+                <g id="Clip-17"></g>
+                <polyline id="Fill-16" fill="url(#linearGradient-15)" mask="url(#mask-14)" points="0.001 0.862 75.984 76.846 246.435 480.287 170.451 404.304 0.001 0.862"></polyline>
+            </g>
+            <polyline id="Fill-19" fill="#FFFFFF" points="489.589 0.862 609.982 0.862 503.416 605.227 363.09 605.227 191.703 202.583 120.706 605.227 0.311 605.227 106.877 0.862 248.001 0.862 418.451 404.304 489.589 0.862"></polyline>
+        </g>
+    </g>
+</svg>

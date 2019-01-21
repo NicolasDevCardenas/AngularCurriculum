@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
 import { routing, appRoutingProviders } from "./app.routing";
 
 import { AppComponent } from './app.component';
 
 //Angular material
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatMenuModule} from '@angular/material/menu';
-
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material';
 
 import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
@@ -27,8 +29,11 @@ import { ErrorComponent } from './components/error/error.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatMenuModule,
-    routing
+    routing,
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [
     appRoutingProviders

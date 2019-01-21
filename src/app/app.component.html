@@ -4,7 +4,7 @@
   </div>
   <div class="nav-section">
     <nav class="nav nav-pills container text-white pl-3 text-uppercase ">
-      <a class="nav-link ml-auto active" [routerLink]="['/sobre-mi']" [routerLinkActive]="['active']"> Sobre mi</a>
+      <a class="nav-link ml-auto" [routerLink]="['/sobre-mi']" [routerLinkActive]="['active']"> Sobre mi</a>
       <a class="nav-link " [routerLink]="['/proyectos']" [routerLinkActive]="['active']">Proyectos</a>
       <a class="nav-link" [routerLink]="['/crear-proyecto']" [routerLinkActive]="['active']">Crear proyectos</a>
       <a class="nav-link mr-auto" [routerLink]="['/contacto']" [routerLinkActive]="['active']">Contacto</a>
@@ -13,7 +13,7 @@
 </header>
 <section class="container">
   <div class="row justify-content-center">
-    <div class="col-8 shadow-lg">
+    <div class="col-8  py-3">
       <router-outlet></router-outlet>
     </div>
   </div>

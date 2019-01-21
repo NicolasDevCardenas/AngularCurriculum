@@ -1,3 +1,75 @@
-<p>
-  create works!
-</p>
+<form #projectForm="ngForm" (ngSubmit)="onSubmit(projectForm)">
+  <div class="row">
+    <div class="col-12">
+      <mat-form-field appearance="outline" class="d-block">
+        <mat-label>Nombre</mat-label>
+        <input matInput name="name" #name="ngModel" [(ngModel)]="project.name" required>
+      </mat-form-field>
+      <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-info">
+        <small>El nombre es obligatorio</small>
+      </div>
+    </div>
+    <div class="col-12">
+      <mat-form-field appearance="outline" class="d-block">
+        <mat-label>Descripción</mat-label>
+        <input matInput name="description" #description="ngModel" [(ngModel)]="project.description" required>
+      </mat-form-field>
+      <div *ngIf="description.invalid && (description.dirty || description.touched)" class="alert alert-info">
+        <small>La
+          descripción es obligatorio</small>
+      </div>
+    </div>
+    <div class="col-12">
+      <mat-form-field appearance="outline" class="d-block">
+        <mat-label>Categoria</mat-label>
+        <input matInput name="category" #category="ngModel" [(ngModel)]="project.category" required>
+      </mat-form-field>
+      <div *ngIf="category.invalid && (category.dirty || category.touched)" class="alert alert-info">
+        <small>La descripción
+          es obligatorio</small>
+      </div>
+    </div>
+    <div class="col-12">
+      <mat-form-field appearance="outline" class="d-block">
+        <mat-label>Red social</mat-label>
+        <input matInput name="redSocial" #redSocial="ngModel" [(ngModel)]="project.redSocial" required>
+      </mat-form-field>
+      <div *ngIf="redSocial.invalid && (redSocial.dirty || redSocial.touched)" class="alert alert-info">
+        <small>La
+          descripción
+          es obligatorio</small>
+      </div>
+    </div>
+    <div class="col-12">
+      <mat-form-field appearance="outline" class="d-block">
+        <mat-label>Año</mat-label>
+        <input matInput name="year" #year="ngModel" [(ngModel)]="project.year" required>
+      </mat-form-field>
+      <div *ngIf="year.invalid && (year.dirty || year.touched)" class="alert alert-info">
+        <small>La
+          descripción
+          es obligatorio</small>
+      </div>
+    </div>
+    <div class="col-12">
+      <mat-form-field appearance="outline" class="d-block">
+        <mat-label>Lenguaje</mat-label>
+        <input matInput name="langs" #langs="ngModel" [(ngModel)]="project.langs" required>
+      </mat-form-field>
+      <div *ngIf="langs.invalid && (langs.dirty || langs.touched)" class="alert alert-info">
+        <small>La
+          descripción
+          es obligatorio</small>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-group">
+        <label for="exampleFormControlFile1" class="text-white">Imagen</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+    </div>
+  </div>
+  <div class="text-right">
+    <button type="submit" class="btn btn-primary" [disabled]="!projectForm.form.valid">Enviar</button>
+  </div>
+</form>

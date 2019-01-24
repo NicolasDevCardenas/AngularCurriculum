@@ -64,10 +64,16 @@
     </div>
     <div class="col-12">
       <div class="form-group">
-        <label for="exampleFormControlFile1" class="text-white">Imagen</label>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <label for="exampleFormControlFile1" >Imagen</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1" (change)="fileChangeEvent($event)">
       </div>
     </div>
+  </div>
+  <div *ngIf="status == 'success'" class="alert alert-info">
+    <span>El proyecto se ha creado correctamente <a [routerLink]="['/project', save_project._id]"> ver aqui</a> </span>
+  </div>
+  <div *ngIf="status =='failed'" class="alert alert-danger">
+    <span>El proyecto no se ha creado</span>
   </div>
   <div class="text-right">
     <button type="submit" class="btn btn-primary" [disabled]="!projectForm.form.valid">Enviar</button>

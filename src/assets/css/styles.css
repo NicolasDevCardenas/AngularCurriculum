@@ -11,10 +11,11 @@
 
 nav, h1, h2, h3, h4, h5{
     font-family: "Roboto"!important;
+    color: white !important;
 }
 p, span {
     font-family: "Roboto-ligth"!important;
-
+    color: white;
 }
 /* Estilos generales */
 header{

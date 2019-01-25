@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild  } from '@angular/core';
+import { text } from '@angular/core/src/render3';
+import { CdkTextareaAutosize } from '@angular/cdk/text-field';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild('textos') textos;
 
-  ngOnInit() {
+  constructor() { 
+    
   }
 
+  ngOnInit() {
+    var opcion_clasica = document.querySelector('#texto').innerHTML;
+    console.log(this.textos.nativeElement.textContent);
+    
+  }
+
+  
 }

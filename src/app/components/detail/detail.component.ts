@@ -38,5 +38,16 @@ export class DetailComponent implements OnInit {
       }
     )
   }
+  deleteProject(id){
+    this._projectService.deleteProject(id).subscribe(
+      response =>{
+        console.log(response);
+        this._router.navigate(['/proyectos']);
+      },error=>{
+        console.log(<any>error);
+        
+      }
+    )
+  }
 
 }
